@@ -8,6 +8,7 @@ export type BaseInfo = {
 
 export type BaseProduct = BaseInfo & {
   description: string;
+  manufacturer: string;
   price: number;
   rating: number;
 };
@@ -19,8 +20,15 @@ export type Category = BaseInfo & {
 //Product types
 
 export type Television = BaseProduct & {
-  manufacturer: string;
   screenSize: number;
   resolution: [number, number];
   displayType: "LED" | "OLED" | "LCD" | "Plasma" | "QLED";
 };
+
+export type Smartphone = BaseProduct & {
+  screenSize: number;
+  operatingSystem: string;
+  storageCapacityGB: number;
+  RAMGB: number;
+  batteryCapacitymAh: number;
+}

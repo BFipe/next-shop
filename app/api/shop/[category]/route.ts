@@ -1,4 +1,4 @@
-import { Televisions } from "@/app/_data/_mockData";
+import { Smartphones, Televisions } from "@/app/_data/_mockData";
 import { BaseProduct } from "@/app/_data/dataTypes";
 import { DynamicServerRouteParams } from "@/app/common/interfaces";
 import { NextResponse } from "next/server";
@@ -19,7 +19,7 @@ const getDataByRoute = (route: string): mockedProductsData => {
     case "smartphones":
       return {
         isSuccess: true,
-        data: null,
+        data: Smartphones,
       };
     case "laptops":
       return {
