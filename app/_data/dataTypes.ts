@@ -57,3 +57,8 @@ export type Console = BaseProduct & {
   RAMGB: number;
   tvConnectionType: string;
 };
+
+export type Headphones = BaseProduct & {
+  type: string;
+  wireless: boolean;
+};

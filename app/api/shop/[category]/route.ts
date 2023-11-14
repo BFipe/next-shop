@@ -1,6 +1,7 @@
 import {
   Cameras,
   Consoles,
+  Headphones,
   Laptops,
   Smartphones,
   Televisions,
@@ -45,7 +46,7 @@ const getDataByRoute = (route: string): mockedProductsData => {
     case "headphones":
       return {
         isSuccess: true,
-        data: null,
+        data: Headphones,
       };
 
     //Всегда будет выдавать null, нужна для

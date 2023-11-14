@@ -2,6 +2,7 @@ import {
   Camera,
   Category,
   Console,
+  Headphones as HeadphonesType,
   Laptop,
   Smartphone,
   Television,
@@ -33,64 +34,57 @@ export const Categories: Array<Category> = [
     name: "Televisions",
     urlPath: "televisions",
     title: "Advanced display technology for home entertainment.",
-    imageUrl: "",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/72682392b1074206072fa5c8d3742d60.jpeg",
   },
   {
     id: "2",
     name: "Smartphones",
     urlPath: "smartphones",
     title: "High-performance mobile communication devices.",
-    imageUrl: "",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/c66db6b4c5cce1915eadd8bb59f5c527.jpeg",
   },
   {
     id: "3",
     name: "Laptops",
     urlPath: "laptops",
     title: "Portable computers for work and entertainment on the go.",
-    imageUrl: "",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/c6d73e662f81d52c7bc94a9056bdf0ca.jpeg",
   },
   {
     id: "4",
     name: "Cameras",
     urlPath: "cameras",
     title: "Capture moments with cutting-edge imaging technology.",
-    imageUrl: "",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/ce773521ac2069e9090d3ccb29fedffe.jpeg",
   },
   {
     id: "5",
     name: "Consoles",
     urlPath: "consoles",
     title: "Immersive gaming experiences for enthusiasts.",
-    imageUrl: "",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/21ce9b02d5ec8f3f15874640e7750fd4.jpeg",
   },
   {
     id: "6",
-    name: "Smart Watches",
-    urlPath: "smart-watches",
-    title: "Wearable devices for convenient and connected lifestyles.",
-    imageUrl: "",
-  },
-  {
-    id: "7",
-    name: "Drones",
-    urlPath: "drones",
-    title: "Unmanned aerial vehicles for aerial photography and more.",
-    imageUrl: "",
-  },
-  {
-    id: "8",
     name: "Headphones",
     urlPath: "headphones",
     title:
       "High-quality audio accessories for an immersive listening experience.",
-    imageUrl: "",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/9fdb7c833aab7fa921691e4dad4f7c3d.jpeg",
   },
   {
-    id: "9",
-    name: "Vacuum Cleaners",
-    urlPath: "vacuum-cleaners",
-    title: "Effortless cleaning with smart and automated vacuum technology.",
-    imageUrl: "",
+    id: "7",
+    name: "Refrigerators",
+    urlPath: "refrigerators",
+    title: "The best refrigerators that freeze to the very core.",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/5e9138df3146af39b9a2309d1a96b2ed.jpg",
   },
 ];
 
@@ -596,5 +590,88 @@ export const Consoles: Array<Console> = [
     RAM: "GDDR6",
     RAMGB: 16,
     tvConnectionType: "HDMI",
+  },
+];
+
+//Результат выдачи на /api/shop/headphones
+//Список из наушников
+//
+//Также выдается при вызове /api/shop/headphones/[id]
+//и затем фильтруется по id
+
+export const Headphones: Array<HeadphonesType> = [
+  {
+    id: "1",
+    name: "Haylou W1",
+    title:
+      "беспроводные наушники с микрофоном, внутриканальные, портативные, полностью беспроводные (TWS), Bluetooth 5.2, 20-20000 Гц, время работы 6 ч, с кейсом 20 ч",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/ee5328a0b7a71ccd8f8505c03a739db9.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Haylou",
+    price: 96.03,
+    rating: 7,
+    type: "Внутриканальные",
+    wireless: true,
+  },
+  {
+    id: "2",
+    name: "Redragon Ire Pro",
+    title:
+      "беспроводные наушники с микрофоном, мониторные (охватывающие), геймерские, съёмный аудиокабель, Bluetooth 5.0, 20-20000 Гц, кабель 1.8 м",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/be904557aa70d7911ea4eaf043cc0430.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Redragon",
+    price: 179,
+    rating: 10,
+    type: "Накладные геймерские",
+    wireless: true,
+  },
+  {
+    id: "3",
+    name: "Apple AirPods Pro 2",
+    title:
+      "беспроводные наушники с микрофоном, внутриканальные, портативные, полностью беспроводные (TWS), Bluetooth 5.3, быстрая зарядка, время работы 6 ч, с кейсом 30 ч, активное шумоподавление",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/d8e8e88f88d95f4616c729b8386dc023.jpg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Apple",
+    price: 868.96,
+    rating: 7,
+    type: "Внутриканальные",
+    wireless: true,
+  },
+  {
+    id: "4",
+    name: "Focal Utopia",
+    title:
+      "наушники, мониторные (охватывающие), для аудиофилов, 5-50000 Гц, кабель 4 м",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/921064ef875860f244eb63a5a000479f.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Focal",
+    price: 22_291.33,
+    rating: 10,
+    type: "Накладные, для аудиофилов",
+    wireless: false,
+  },
+  {
+    id: "5",
+    name: "Defender Basic 210",
+    title: "наушники, внутриканальные, портативные, 20-20000 Гц, кабель 1.2 м",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/ddffa48b89b2a1dc253dbae1d277e86e.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Defender",
+    price: 2.24,
+    rating: 5,
+    type: "Внутриканальные",
+    wireless: false,
   },
 ];
