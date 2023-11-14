@@ -1,5 +1,6 @@
 import {
   Cameras,
+  Consoles,
   Laptops,
   Smartphones,
   Televisions,
@@ -39,24 +40,9 @@ const getDataByRoute = (route: string): mockedProductsData => {
     case "consoles":
       return {
         isSuccess: true,
-        data: null,
-      };
-    case "smart-watches":
-      return {
-        isSuccess: true,
-        data: null,
-      };
-    case "drones":
-      return {
-        isSuccess: true,
-        data: null,
+        data: Consoles,
       };
     case "headphones":
-      return {
-        isSuccess: true,
-        data: null,
-      };
-    case "vacuum-cleaners":
       return {
         isSuccess: true,
         data: null,

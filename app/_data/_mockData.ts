@@ -1,4 +1,11 @@
-import { Camera, Category, Laptop, Smartphone, Television } from "./dataTypes";
+import {
+  Camera,
+  Category,
+  Console,
+  Laptop,
+  Smartphone,
+  Television,
+} from "./dataTypes";
 
 //_____________Дисклеймер_____________
 // Из-за того, что это моковые данные,
@@ -14,6 +21,9 @@ import { Camera, Category, Laptop, Smartphone, Television } from "./dataTypes";
 // возможностей и ресурсов на данном
 // проекте используются "плохие"
 // методы работы с данными.
+//
+// Также на некоторых методах добавлена
+// искуственная задержка через Promise
 
 //Результат выдачи на /api/shop
 //Список категорий на основе которых формируются дальнейшие пути
@@ -88,7 +98,7 @@ export const Categories: Array<Category> = [
 //Список из телевизоров
 //
 //Также выдается при вызове /api/shop/televisions/[id]
-//И затем фильтруется по id
+//и затем фильтруется по id
 export const Televisions: Array<Television> = [
   {
     id: "1",
@@ -208,7 +218,7 @@ export const Televisions: Array<Television> = [
 //Список из телефонов
 //
 //Также выдается при вызове /api/shop/smartphones/[id]
-//И затем фильтруется по id
+//и затем фильтруется по id
 
 export const Smartphones: Array<Smartphone> = [
   {
@@ -322,10 +332,10 @@ export const Smartphones: Array<Smartphone> = [
 ];
 
 //Результат выдачи на /api/shop/laptops
-//Список из телефонов
+//Список из ноутбуков
 //
 //Также выдается при вызове /api/shop/laptops/[id]
-//И затем фильтруется по id
+//и затем фильтруется по id
 
 export const Laptops: Array<Laptop> = [
   {
@@ -483,10 +493,10 @@ export const Laptops: Array<Laptop> = [
 ];
 
 //Результат выдачи на /api/shop/cameras
-//Список из телефонов
+//Список из камер
 //
 //Также выдается при вызове /api/shop/cameras/[id]
-//И затем фильтруется по id
+//и затем фильтруется по id
 
 export const Cameras: Array<Camera> = [
   {
@@ -539,5 +549,52 @@ export const Cameras: Array<Camera> = [
     matrixResolution: 24.2,
     matrixType: "EXR CMOS",
     pictureResolution: [6000, 4000],
+  },
+];
+
+//Результат выдачи на /api/shop/consoles
+//Список из консолей
+//
+//Также выдается при вызове /api/shop/consoles/[id]
+//и затем фильтруется по id
+
+export const Consoles: Array<Console> = [
+  {
+    id: "1",
+    name: "Microsoft Xbox Series X",
+    title:
+      "1 ТБ, разрешение игр - 4K UHD (2160p), поддержка HDR, подключение по HDMI",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/5d39d010867f586b24993beac9bcf882.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Microsoft",
+    price: 1838,
+    rating: 10,
+    maxResolution: "4K UHD (2160p)",
+    storageCapacityGB: 1024,
+    CPU: "AMD Zen 2",
+    RAM: "GDDR6",
+    RAMGB: 16,
+    tvConnectionType: "HDMI",
+  },
+  {
+    id: "2",
+    name: "Sony PlayStation 5",
+    title:
+      "825 ГБ, разрешение игр - 4K UHD (2160p), поддержка HDR, подключение по HDMI, 1 игра в комплекте: Astro’s Playroom",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/8323b898e839aa79245b105d735aeebe.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Microsoft",
+    price: 1862,
+    rating: 7,
+    maxResolution: "4K UHD (2160p)",
+    storageCapacityGB: 825,
+    CPU: "AMD Zen 2",
+    RAM: "GDDR6",
+    RAMGB: 16,
+    tvConnectionType: "HDMI",
   },
 ];

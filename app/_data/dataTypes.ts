@@ -37,9 +37,9 @@ export type Laptop = BaseProduct & {
   screenSize: number;
   operatingSystem: string;
   storageCapacityGB: number;
-  RAMGB: number;
   CPU: string;
   RAM: string;
+  RAMGB: number;
 };
 
 export type Camera = BaseProduct & {
@@ -47,4 +47,13 @@ export type Camera = BaseProduct & {
   matrixResolution: number;
   matrixType: string;
   pictureResolution: [number, number];
+};
+
+export type Console = BaseProduct & {
+  maxResolution: string;
+  storageCapacityGB: number;
+  CPU: string;
+  RAM: string;
+  RAMGB: number;
+  tvConnectionType: string;
 };
