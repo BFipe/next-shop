@@ -1,6 +1,19 @@
-import { Category, Laptop, Smartphone, Television } from "./dataTypes";
+import { Camera, Category, Laptop, Smartphone, Television } from "./dataTypes";
 
-//Mock data
+//_____________Дисклеймер_____________
+// Из-за того, что это моковые данные,
+// можно допустить некоторые методы
+// обработки данных.
+//
+// Например, вытягивать все данные
+// без пагинации или фильтровать
+// из кучи объект по id.
+//
+// На реальном проекте такое делать
+// недопустимо, но из-за ограниченых
+// возможностей и ресурсов на данном
+// проекте используются "плохие"
+// методы работы с данными.
 
 //Результат выдачи на /api/shop
 //Список категорий на основе которых формируются дальнейшие пути
@@ -466,5 +479,65 @@ export const Laptops: Array<Laptop> = [
     RAMGB: 3,
     CPU: "Intel Celeron N3350",
     RAM: "DDR4 2100 МГц",
+  },
+];
+
+//Результат выдачи на /api/shop/cameras
+//Список из телефонов
+//
+//Также выдается при вызове /api/shop/cameras/[id]
+//И затем фильтруется по id
+
+export const Cameras: Array<Camera> = [
+  {
+    id: "1",
+    name: "Canon EOS 6D Mark II Body",
+    title:
+      "зеркальная камера, байонет Canon EF, матрица Full frame (полный кадр) 26 Мп, без объектива (body), Wi-Fi",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/e38b3df3d6543e00ad4d399f2a32cb71.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Canon",
+    price: 4984.4,
+    rating: 10,
+    cameraType: "Зеркальная камера",
+    matrixResolution: 26,
+    matrixType: "CMOS",
+    pictureResolution: [6240, 4160],
+  },
+  {
+    id: "2",
+    name: "Nikon Z5 Body",
+    title:
+      "беззеркальная камера, байонет Nikon Z, матрица Full frame (полный кадр) 24.3 Мп, без объектива (body), Wi-Fi, два слота для карт памяти",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/5dd398753f305e4c755bd332a1007a4a.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Nikon",
+    price: 4459.9,
+    rating: 9,
+    cameraType: "Беззеркальная камера",
+    matrixResolution: 24.3,
+    matrixType: "CMOS",
+    pictureResolution: [6016, 4016],
+  },
+  {
+    id: "3",
+    name: "Sony Alpha a6400 Body",
+    title:
+      "беззеркальная камера, байонет Sony E, матрица APS-C (1.5 crop) 24.2 Мп, без объектива (body), Wi-Fi",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/62647e4afd5c01e9e0c2cf0841ae2a7e.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Sony",
+    price: 3290,
+    rating: 9,
+    cameraType: "Беззеркальная камера",
+    matrixResolution: 24.2,
+    matrixType: "EXR CMOS",
+    pictureResolution: [6000, 4000],
   },
 ];

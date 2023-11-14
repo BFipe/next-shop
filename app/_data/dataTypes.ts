@@ -41,3 +41,10 @@ export type Laptop = BaseProduct & {
   CPU: string;
   RAM: string;
 };
+
+export type Camera = BaseProduct & {
+  cameraType: string;
+  matrixResolution: number;
+  matrixType: string;
+  pictureResolution: [number, number];
+};
