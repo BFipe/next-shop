@@ -56,6 +56,11 @@ const getDataByRoute = (route: string): mockedProductsData => {
         isSuccess: true,
         data: null,
       };
+    case "refrigerators":
+      return {
+        isSuccess: true,
+        data: null,
+      };
     default:
       return {
         isSuccess: false,
