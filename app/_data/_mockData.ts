@@ -1,4 +1,4 @@
-import { Category, Smartphone, Television } from "./dataTypes";
+import { Category, Laptop, Smartphone, Television } from "./dataTypes";
 
 //Mock data
 
@@ -305,5 +305,166 @@ export const Smartphones: Array<Smartphone> = [
     storageCapacityGB: 64,
     RAMGB: 4,
     batteryCapacitymAh: 3046,
+  },
+];
+
+//Результат выдачи на /api/shop/laptops
+//Список из телефонов
+//
+//Также выдается при вызове /api/shop/laptops/[id]
+//И затем фильтруется по id
+
+export const Laptops: Array<Laptop> = [
+  {
+    id: "1",
+    name: "Lenovo IdeaPad 1 15IAU7",
+    title:
+      '15.6" 1920 x 1080, IPS, 60 Гц, Intel Pentium Gold 8505, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки серый, аккумулятор 42 Вт·ч',
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/06621475af1c45f9432afdfbad11bde2.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Lenovo",
+    price: 1497,
+    rating: 7,
+    screenSize: 15.6,
+    operatingSystem: "Windows 11",
+    storageCapacityGB: 256,
+    RAMGB: 8,
+    RAM: "DDR4 3200 МГц",
+    CPU: "Intel Pentium Gold 8505",
+  },
+  {
+    id: "2",
+    name: "Maibenben x Mechrevo X558",
+    title:
+      '15.6" 1920 x 1080, IPS, 144 Гц, AMD Ryzen 7 5800H, 16 ГБ DDR4, SSD 1024 ГБ, видеокарта NVIDIA GeForce RTX 3060 6 ГБ (TGP 130 Вт), Linux, цвет крышки серый, аккумулятор 46.7 Вт·ч',
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/25bdd9c7747dfaafffc106a2cd9dab9e.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Maibenben",
+    price: 3280,
+    rating: 8,
+    screenSize: 15.6,
+    operatingSystem: "Windows 11",
+    storageCapacityGB: 1024,
+    RAMGB: 16,
+    CPU: "AMD Ryzen 7 5800H",
+    RAM: "DDR4 3200 МГц",
+  },
+  {
+    id: "3",
+    name: "Huawei MateBook D 15",
+    title:
+      '15.6" 1920 x 1080, IPS, 60 Гц, Intel Core i5 1155G7, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, Windows 11, цвет крышки серый, аккумулятор 42 Вт·ч',
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/4676df026a785edcdbfb2b56d31ba43f.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Huawei",
+    price: 1999,
+    rating: 10,
+    screenSize: 15.6,
+    operatingSystem: "Windows 11",
+    storageCapacityGB: 256,
+    RAMGB: 8,
+    CPU: "Intel Core i5 1155G7",
+    RAM: "DDR4 3200 МГц",
+  },
+  {
+    id: "4",
+    name: "Lenovo IdeaPad Slim 5",
+    title:
+      '16.0" 2560 x 1600, IPS, 60 Гц, AMD Ryzen 5 7530U, 16 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, без ОС, цвет крышки серый, аккумулятор 56.6 Вт·ч',
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/ed52fb757a34669f3e914b52eb1496c4.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Lenovo",
+    price: 2590,
+    rating: 7,
+    screenSize: 16,
+    operatingSystem: "no OS",
+    storageCapacityGB: 512,
+    RAMGB: 16,
+    CPU: "AMD Ryzen 5 7530U",
+    RAM: "DDR4 3200 МГц",
+  },
+  {
+    id: "5",
+    name: "Acer Aspire 3",
+    title:
+      '15.6" 1920 x 1080, IPS, 60 Гц, Intel Core i3 1115G4, 8 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, Windows 11, цвет крышки серебристый, аккумулятор 36.7 Вт·ч',
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/5cc8c3cb5e059980b9421ca7db0cfe54.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Acer",
+    price: 1445,
+    rating: 8,
+    screenSize: 15.6,
+    operatingSystem: "Windows 11",
+    storageCapacityGB: 512,
+    RAMGB: 8,
+    CPU: "Intel Core i3 1115G4",
+    RAM: "DDR4 3200 МГц",
+  },
+  {
+    id: "6",
+    name: 'Apple Macbook Air 15"',
+    title:
+      "15.3 2880 x 1864, IPS, 60 Гц, Apple M2, 8 ГБ, SSD 256 ГБ, видеокарта встроенная, Mac OS, цвет крышки серебристый, аккумулятор 66.5 Вт·ч",
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/dbcc352090b0a5e348bd1b9a0327ddb5.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Apple",
+    price: 4545,
+    rating: 10,
+    screenSize: 15,
+    operatingSystem: "Mac OS",
+    storageCapacityGB: 256,
+    RAMGB: 8,
+    CPU: "Apple M2",
+    RAM: "DDR4 3200 МГц",
+  },
+  {
+    id: "7",
+    name: 'Apple Macbook Pro 14"',
+    title:
+      '14.2" 3024 x 1964, IPS, 120 Гц, Apple M2 Pro (10 ядер), 16 ГБ, SSD 512 ГБ, видеокарта встроенная, Mac OS, цвет крышки серый, аккумулятор 70 Вт·ч',
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/803784462861fa2a37451fe1b6c2ad30.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "Apple",
+    price: 7400,
+    rating: 10,
+    screenSize: 14.2,
+    operatingSystem: "Mac OS",
+    storageCapacityGB: 512,
+    RAMGB: 16,
+    CPU: "Apple M2 Pro",
+    RAM: "DDR4 3200 МГц",
+  },
+  {
+    id: "8",
+    name: "IRBIS NB500",
+    title:
+      '13.3" 1920 x 1080, IPS, 60 Гц, сенсорный, Intel Celeron N3350, 3 ГБ DDR4, eMMC 32 ГБ, видеокарта встроенная, Windows 10 Pro, цвет крышки серебристый',
+    imageUrl:
+      "https://content2.onliner.by/catalog/device/header/fbd33ddeff4fed0c8e010303e1c76178.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    manufacturer: "IRBIS",
+    price: 0,
+    rating: 0,
+    screenSize: 13.3,
+    operatingSystem: "Windows 10 Pro",
+    storageCapacityGB: 32,
+    RAMGB: 3,
+    CPU: "Intel Celeron N3350",
+    RAM: "DDR4 2100 МГц",
   },
 ];

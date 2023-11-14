@@ -31,4 +31,13 @@ export type Smartphone = BaseProduct & {
   storageCapacityGB: number;
   RAMGB: number;
   batteryCapacitymAh: number;
-}
+};
+
+export type Laptop = BaseProduct & {
+  screenSize: number;
+  operatingSystem: string;
+  storageCapacityGB: number;
+  RAMGB: number;
+  CPU: string;
+  RAM: string;
+};
