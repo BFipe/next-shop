@@ -56,6 +56,9 @@ const getDataByRoute = (route: string): mockedProductsData => {
         isSuccess: true,
         data: null,
       };
+
+    //Всегда будет выдавать null, нужна для
+    //отображения страницы при отсутствии товаров
     case "refrigerators":
       return {
         isSuccess: true,
