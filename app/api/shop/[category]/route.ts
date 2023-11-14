@@ -11,7 +11,7 @@ type mockedProductsData = {
 
 const getDataByRoute = (route: string): mockedProductsData => {
   switch (route) {
-    case "television":
+    case "televisions":
       return {
         isSuccess: true,
         data: Televisions,
