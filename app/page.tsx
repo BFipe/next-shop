@@ -1,4 +1,4 @@
-import SimpleCounter from "./components/SimpleCounter";
+import SimpleCounter from "@/src/components/SimpleCounter";
 import styles from "./page.module.scss";
 
 export default async function Home() {

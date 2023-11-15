@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import ReduxStoreProvider from "./reduxCore/ReduxStoreProvider";
-import Header from "./components/layout/Header/Header";
+
 import style from "./layout.module.scss";
+import Header from "@/src/components/layout/Header/Header";
+import ReduxStoreProvider from "@/src/reduxCore/ReduxStoreProvider";
 
 export const metadata: Metadata = {
   title: "Next | Shop by BFipe",
