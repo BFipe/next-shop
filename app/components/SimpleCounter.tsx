@@ -10,7 +10,7 @@ export default function SimpleCounter() {
   return (
     <>
       <button onClick={() => dispatch(CounterActions.increment())}>
-        <p style={{ fontWeight: "100" }}>{count.value}</p>
+        <p style={{ fontWeight: "500", margin: "10px" }}>{count.value}</p>
       </button>
     </>
   );
