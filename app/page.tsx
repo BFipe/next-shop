@@ -1,4 +1,5 @@
 import SimpleCounter from "./components/SimpleCounter";
+import { Italiana } from "next/font/google";
 
 export default async function Home() {
   return (

@@ -8,8 +8,10 @@ export default function SimpleCounter() {
   const count = useAppSelector((store) => store.counter);
 
   return (
-    <button onClick={() => dispatch(CounterActions.increment())}>
-      {count.value}
-    </button>
+    <>
+      <button onClick={() => dispatch(CounterActions.increment())}>
+        <p style={{ fontWeight: "100" }}>{count.value}</p>
+      </button>
+    </>
   );
 }

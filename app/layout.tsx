@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.scss";
 import ReduxStoreProvider from "./reduxCore/ReduxStoreProvider";
-
-const inter = Inter({ subsets: ["latin"] });
+import Navbar from "./components/layout/Navbar/Navbar";
+import style from "./layout.module.scss";
 
 export const metadata: Metadata = {
   title: "Next-Shop",
@@ -17,7 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css?family=Comfortaa"
+          rel="stylesheet"
+        />
+      </head>
+      <body className={style.body}>
+        <Navbar />
         <ReduxStoreProvider>{children}</ReduxStoreProvider>
       </body>
     </html>
