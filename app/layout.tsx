@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 import ReduxStoreProvider from "./reduxCore/ReduxStoreProvider";
-import Navbar from "./components/layout/Navbar/Navbar";
+import Header from "./components/layout/Header/Header";
 import style from "./layout.module.scss";
 
 export const metadata: Metadata = {
@@ -18,12 +18,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link
-          href="https://fonts.googleapis.com/css?family=Comfortaa"
+          href="https://fonts.googleapis.com/css?family=Rubik"
           rel="stylesheet"
         />
       </head>
       <body className={style.body}>
-        <Navbar />
+        <Header />
         <ReduxStoreProvider>{children}</ReduxStoreProvider>
       </body>
     </html>

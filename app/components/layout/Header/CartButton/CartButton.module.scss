@@ -1,7 +1,5 @@
 .cartButton {
+    position: relative;
+    z-index: 1;
     transform: translateY(1px);
-}
-
-.cartIcon {
-    transform: translateY(10px);
 }
