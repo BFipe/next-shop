@@ -1,5 +1,9 @@
 .cartButton {
     position: relative;
     z-index: 1;
-    transform: translateY(1px);
+    transform: scale(1.5) translateY(1px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
 }

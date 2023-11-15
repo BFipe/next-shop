@@ -6,7 +6,7 @@ import NavDivider from "./NavDivider/NavDivider";
 
 export default function Header() {
   return (
-    <header className={styles.navigation}>
+    <header className={styles.header}>
       <AppLogo />
       <Link href={"/"} className={styles.navButton}>
         <div className={styles.navButton_Text}>Home</div>

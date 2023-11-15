@@ -5,7 +5,7 @@ import Header from "./components/layout/Header/Header";
 import style from "./layout.module.scss";
 
 export const metadata: Metadata = {
-  title: "Next-Shop",
+  title: "Next | Shop by BFipe",
   description: "Pet-Project by BFipe",
 };
 

@@ -1,9 +1,10 @@
-.navigation {
+.header {
     position: sticky;
+    z-index: 30;
     top: 0;
     background-color: #000000;
     outline: 1px solid rgb(68, 68, 68);
-    height: 60px;
+    height: 80px;
     z-index: 100;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -12,7 +13,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    box-shadow: -500px 0px 150px -200px #ffffff inset;
 }
 
 .navButton {
@@ -34,7 +34,8 @@
         left: 0px;
         top: 1px;
         background-color: #000000;
-        transform: skewX(-0.06turn) translate(0px, 0px);
+        border-radius: 2px;
+        transform: scale(1.05) skewX(-0.06turn) translate(0px, 0px);
         transition:
             transform 0.33s ease,
             background-color 0.2s ease;
@@ -49,10 +50,15 @@
     }
 
     &:focus,
-    :focus-visible,
     :focus-within {
         outline: none;
         text-decoration: underline 2px #ffffff80;
+    }
+
+    &:focus-visible {
+        & > .navButton_Text {
+            outline: #52a8ff solid 2px;
+        }
     }
 }
 
@@ -67,13 +73,13 @@
 .cartButton {
     position: relative;
     background-color: #ffffff;
+    margin-right: 15px;
     padding: 10px 20px;
     font-weight: bolder;
     text-decoration: none;
     color: #000000;
     margin-left: auto;
     transition: transform 0.3s ease;
-    transform: translate(0px, 0px);
 
     &::after {
         content: "";
@@ -84,7 +90,8 @@
         left: 0px;
         top: 1px;
         background-color: #fff;
-        transform: skewX(-0.06turn) translate(0px, 0px);
+        border-radius: 2px;
+        transform: scale(1.2) skewX(-0.06turn) translate(0px, 0px);
         transition:
             transform 0.33s ease,
             background-color 0.2s ease;
@@ -92,15 +99,16 @@
 
     &:hover {
         transform: translate(-2px, 2px);
-
-        &::after {
-            background-color: #00000010;
-        }
     }
 
     &:focus,
-    :focus-visible,
     :focus-within {
         outline: none;
+    }
+
+    &:focus-visible {
+        &::after {
+            outline: #52a8ff solid 3px;
+        }
     }
 }

@@ -1,7 +1,8 @@
 .divider {
     position: relative;
-    width: 2px;
+    width: 3px;
+    border-radius: 2px;
     height: 80%;
     background-color: white;
-    transform: skewX(-0.06turn);
+    transform: translate(-3px, 4px) skewX(-0.06turn);
 }
