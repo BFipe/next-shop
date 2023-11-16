@@ -67,7 +67,7 @@ export const Categories: Array<Category> = [
     urlPath: "consoles",
     title: "Immersive gaming experiences for enthusiasts.",
     imageUrl:
-      "https://content2.onliner.by/catalog/device/header/21ce9b02d5ec8f3f15874640e7750fd4.jpeg",
+      "https://content2.onliner.by/catalog/device/header/ee5328a0b7a71ccd8f8505c03a739db9.jpeg",
   },
   {
     id: "6",
