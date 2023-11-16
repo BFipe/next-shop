@@ -1,4 +1,4 @@
-import { BaseProduct } from "../_data/dataTypes";
+import { BaseProduct } from "@/src/_data/dataTypes";
 
 export type ProductGetResponse = {
   info: string;

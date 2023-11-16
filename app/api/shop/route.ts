@@ -1,4 +1,4 @@
-import { Categories } from "@/app/_data/_mockData";
+import { Categories } from "@/src/_data/_mockData";
 import { NextResponse } from "next/server";
 
 export async function GET() {

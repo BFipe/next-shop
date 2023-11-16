@@ -5,9 +5,9 @@ import {
   Laptops,
   Smartphones,
   Televisions,
-} from "@/app/_data/_mockData";
-import { BaseProduct } from "@/app/_data/dataTypes";
-import { DynamicServerRouteParams } from "@/app/common/interfaces";
+} from "@/src/_data/_mockData";
+import { BaseProduct } from "@/src/_data/dataTypes";
+import { DynamicServerRouteParams } from "@/src/common/interfaces";
 import { NextResponse } from "next/server";
 import { CategoriesGetResponse } from "../../routesTypes";
 

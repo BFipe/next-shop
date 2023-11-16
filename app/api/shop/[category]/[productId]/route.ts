@@ -1,9 +1,8 @@
-import { BaseProduct } from "@/app/_data/dataTypes";
 import {
   CategoriesGetResponse,
   ProductGetResponse,
 } from "@/app/api/routesTypes";
-import { DynamicServerRouteParams } from "@/app/common/interfaces";
+import { DynamicServerRouteParams } from "@/src/common/interfaces";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(
