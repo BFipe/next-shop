@@ -9,7 +9,7 @@ import {
 import { BaseProduct } from "@/src/_data/dataTypes";
 import { DynamicServerRouteParams } from "@/src/common/interfaces";
 import { NextResponse } from "next/server";
-import { CategoriesGetResponse } from "../../routesTypes";
+import { ServerResponse } from "../../routesTypes";
 
 type mockedProductsData = {
   isSuccess: boolean;
@@ -72,7 +72,7 @@ export async function GET(
 
   const result = getDataByRoute(context.params.category);
 
-  let response: CategoriesGetResponse = {
+  let response: ServerResponse<Array<BaseProduct>> = {
     info: "",
     status: result.data ? 200 : 404,
     data: result.data,

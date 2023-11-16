@@ -1,7 +1,5 @@
-import {
-  CategoriesGetResponse,
-  ProductGetResponse,
-} from "@/app/api/routesTypes";
+import { ServerResponse } from "@/app/api/routesTypes";
+import { BaseProduct } from "@/src/_data/dataTypes";
 import { DynamicServerRouteParams } from "@/src/common/interfaces";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -11,7 +9,7 @@ export async function GET(
 ) {
   const origin = request.nextUrl.origin;
 
-  let response: ProductGetResponse = {
+  let response: ServerResponse<BaseProduct> = {
     data: null,
     info: "Product is not found",
     status: 404,
@@ -23,7 +21,7 @@ export async function GET(
     );
 
     const productsJsonData = await productsRequest.json();
-    const productsData: CategoriesGetResponse = productsJsonData;
+    const productsData: ServerResponse<Array<BaseProduct>> = productsJsonData;
 
     const products = productsData.data;
 
