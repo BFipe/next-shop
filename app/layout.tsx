@@ -25,7 +25,9 @@ export default function RootLayout({
       </head>
       <body className={style.body}>
         <Header />
-        <ReduxStoreProvider>{children}</ReduxStoreProvider>
+        <div className={style.container}>
+          <ReduxStoreProvider>{children}</ReduxStoreProvider>
+        </div>
       </body>
     </html>
   );

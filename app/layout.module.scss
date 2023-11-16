@@ -3,3 +3,13 @@
     background-color: #000000;
     color: white;
 }
+
+.container {
+    padding: 30px 0;
+    margin: auto;
+    width: 1200px;
+
+    @media (max-width: 1300px) {
+        width: 100%;
+    }
+}
