@@ -15,7 +15,7 @@ export default function CategoryCard({ category }: CategoryCardParams) {
       <div className={style.data}>
         <div className={style.heading}>
           <h3 className={style.name}>{category.name}</h3>
-          <div className={style.addToCart}>ToDo</div>
+          <div className={style.decorativeCircle}></div>
         </div>
         <p className={style.title}>{category.title}</p>
       </div>
