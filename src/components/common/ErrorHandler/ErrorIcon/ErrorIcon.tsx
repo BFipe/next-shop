@@ -2,8 +2,8 @@ export default function ErrorIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
+      width="64"
+      height="64"
       fill="#ffffff"
       viewBox="0 0 16 16"
     >
