@@ -8,15 +8,18 @@ import styles from "./page.module.scss";
 export async function generateStaticParams() {
   try {
     const categories: ServerResponse<Array<Category>> = await fetch(
-      "https://next-shop-fawn.vercel.app/api/sop",
+      "https://next-shop-fawn.vercel.app/api/shop",
       { method: "GET" }
     ).then((data) => data.json());
 
-    const staticParams = categories.data?.map((category) => {
-      return { category: category.urlPath };
-    });
-
-    return staticParams;
+    if (categories.data) {
+      const staticParams = categories.data.map((category) => {
+        return { category: category.urlPath };
+      });
+      return staticParams;
+    } else {
+      return [];
+    }
   } catch (_error) {
     return [];
   }
