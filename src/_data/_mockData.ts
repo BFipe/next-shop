@@ -95,7 +95,7 @@ export const Categories: Array<Category> = [
 //и затем фильтруется по id
 export const Televisions: Array<Television> = [
   {
-    id: "1",
+    id: "11",
     name: "Xiaomi TV Q2 55",
     title:
       '55" 3840x2160 (4K UHD), частота матрицы 60 Гц, Smart TV (Android TV), HDR, Wi-Fi',
@@ -111,7 +111,7 @@ export const Televisions: Array<Television> = [
     resolution: [3840, 2160],
   },
   {
-    id: "2",
+    id: "12",
     name: "Samsung QLED Q70B",
     title:
       '65" 3840x2160 (4K UHD), частота матрицы 120 Гц, индекс динамичных сцен 3400, Smart TV (Samsung Tizen), HDR, Wi-Fi',
@@ -127,7 +127,7 @@ export const Televisions: Array<Television> = [
     resolution: [3840, 2160],
   },
   {
-    id: "3",
+    id: "13",
     name: "LG G3 OLED",
     title:
       '75" 3840x2160 (4K UHD), матрица OLED, частота матрицы 120 Гц, Smart TV (LG webOS), HDR, Wi-Fi',
@@ -143,8 +143,8 @@ export const Televisions: Array<Television> = [
     resolution: [3840, 2160],
   },
   {
-    id: "4",
-    name: "LG G3 OLED",
+    id: "14",
+    name: "LG NanoCell",
     title:
       '55" 3840x2160 (4K UHD), частота матрицы 60 Гц, Smart TV (LG webOS), HDR, Wi-Fi',
     imageUrl:
@@ -159,7 +159,7 @@ export const Televisions: Array<Television> = [
     resolution: [3840, 2160],
   },
   {
-    id: "5",
+    id: "15",
     name: "TECHNO Smart KD",
     title:
       '32" 1366x768 (HD), матрица VA, частота матрицы 60 Гц, индекс динамичных сцен 600, Smart TV (Android TV), Wi-Fi',
@@ -175,7 +175,7 @@ export const Televisions: Array<Television> = [
     resolution: [1366, 768],
   },
   {
-    id: "6",
+    id: "16",
     name: "Evolution WOS32",
     title:
       '32" 1366x768 (HD), частота матрицы 60 Гц, Smart TV (LG webOS), Wi-Fi',
@@ -191,7 +191,7 @@ export const Televisions: Array<Television> = [
     resolution: [1366, 768],
   },
   {
-    id: "7",
+    id: "17",
     name: "KIVI 24H7",
     title:
       '24" 1366x768 (HD), матрица VA, частота матрицы 60 Гц, Smart TV (Android TV), Wi-Fi',
@@ -216,7 +216,7 @@ export const Televisions: Array<Television> = [
 
 export const Smartphones: Array<Smartphone> = [
   {
-    id: "1",
+    id: "21",
     title:
       'Android, экран 6.67" AMOLED (1080x2400) 120 Гц, Qualcomm Snapdragon 7+ Gen 2, ОЗУ 12 ГБ, память 256 ГБ, камера 64 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), влагозащита IP53',
     description:
@@ -234,7 +234,7 @@ export const Smartphones: Array<Smartphone> = [
     batteryCapacitymAh: 5000,
   },
   {
-    id: "2",
+    id: "22",
     title:
       'Android, экран 6.56" IPS (720x1612) 90 Гц, UniSoC Tiger T606, ОЗУ 8 ГБ, память 128 ГБ, поддержка карт памяти, камера 13 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM)',
     description:
@@ -252,7 +252,7 @@ export const Smartphones: Array<Smartphone> = [
     batteryCapacitymAh: 5000,
   },
   {
-    id: "3",
+    id: "23",
     title:
       'Android, экран 6.78" IPS (1080x2460) 120 Гц, Mediatek Helio G99, ОЗУ 8 ГБ, память 128 ГБ, поддержка карт памяти, камера 64 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), влагозащита IP53',
     description:
@@ -270,7 +270,7 @@ export const Smartphones: Array<Smartphone> = [
     batteryCapacitymAh: 5000,
   },
   {
-    id: "4",
+    id: "24",
     title:
       'Apple iOS, экран 6.7" OLED (1290x2796) 120 Гц, Apple A16 Bionic, ОЗУ 6 ГБ, память 128 ГБ, камера 48 Мп, аккумулятор 4323 мАч, 1 SIM (nano-SIM/eSIM), влагозащита IP68',
     description:
@@ -288,7 +288,7 @@ export const Smartphones: Array<Smartphone> = [
     batteryCapacitymAh: 4323,
   },
   {
-    id: "5",
+    id: "25",
     title:
       'Android, экран 6.4" AMOLED (1080x2340) 120 Гц, Exynos 1380, ОЗУ 8 ГБ, память 256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), влагозащита IP67',
     description:
@@ -306,7 +306,7 @@ export const Smartphones: Array<Smartphone> = [
     batteryCapacitymAh: 5000,
   },
   {
-    id: "6",
+    id: "26",
     title:
       'Apple iOS, экран 6.1" IPS (828x1792), Apple A13 Bionic, ОЗУ 4 ГБ, память 64 ГБ, камера 12 Мп, аккумулятор 3046 мАч, 1 SIM (nano-SIM/eSIM), влагозащита IP68',
     description:
@@ -333,7 +333,7 @@ export const Smartphones: Array<Smartphone> = [
 
 export const Laptops: Array<Laptop> = [
   {
-    id: "1",
+    id: "31",
     name: "Lenovo IdeaPad 1 15IAU7",
     title:
       '15.6" 1920 x 1080, IPS, 60 Гц, Intel Pentium Gold 8505, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС, цвет крышки серый, аккумулятор 42 Вт·ч',
@@ -352,7 +352,7 @@ export const Laptops: Array<Laptop> = [
     CPU: "Intel Pentium Gold 8505",
   },
   {
-    id: "2",
+    id: "32",
     name: "Maibenben x Mechrevo X558",
     title:
       '15.6" 1920 x 1080, IPS, 144 Гц, AMD Ryzen 7 5800H, 16 ГБ DDR4, SSD 1024 ГБ, видеокарта NVIDIA GeForce RTX 3060 6 ГБ (TGP 130 Вт), Linux, цвет крышки серый, аккумулятор 46.7 Вт·ч',
@@ -371,7 +371,7 @@ export const Laptops: Array<Laptop> = [
     RAM: "DDR4 3200 МГц",
   },
   {
-    id: "3",
+    id: "33",
     name: "Huawei MateBook D 15",
     title:
       '15.6" 1920 x 1080, IPS, 60 Гц, Intel Core i5 1155G7, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, Windows 11, цвет крышки серый, аккумулятор 42 Вт·ч',
@@ -390,7 +390,7 @@ export const Laptops: Array<Laptop> = [
     RAM: "DDR4 3200 МГц",
   },
   {
-    id: "4",
+    id: "34",
     name: "Lenovo IdeaPad Slim 5",
     title:
       '16.0" 2560 x 1600, IPS, 60 Гц, AMD Ryzen 5 7530U, 16 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, без ОС, цвет крышки серый, аккумулятор 56.6 Вт·ч',
@@ -409,7 +409,7 @@ export const Laptops: Array<Laptop> = [
     RAM: "DDR4 3200 МГц",
   },
   {
-    id: "5",
+    id: "35",
     name: "Acer Aspire 3",
     title:
       '15.6" 1920 x 1080, IPS, 60 Гц, Intel Core i3 1115G4, 8 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, Windows 11, цвет крышки серебристый, аккумулятор 36.7 Вт·ч',
@@ -428,7 +428,7 @@ export const Laptops: Array<Laptop> = [
     RAM: "DDR4 3200 МГц",
   },
   {
-    id: "6",
+    id: "36",
     name: 'Apple Macbook Air 15"',
     title:
       "15.3 2880 x 1864, IPS, 60 Гц, Apple M2, 8 ГБ, SSD 256 ГБ, видеокарта встроенная, Mac OS, цвет крышки серебристый, аккумулятор 66.5 Вт·ч",
@@ -447,7 +447,7 @@ export const Laptops: Array<Laptop> = [
     RAM: "DDR4 3200 МГц",
   },
   {
-    id: "7",
+    id: "37",
     name: 'Apple Macbook Pro 14"',
     title:
       '14.2" 3024 x 1964, IPS, 120 Гц, Apple M2 Pro (10 ядер), 16 ГБ, SSD 512 ГБ, видеокарта встроенная, Mac OS, цвет крышки серый, аккумулятор 70 Вт·ч',
@@ -466,7 +466,7 @@ export const Laptops: Array<Laptop> = [
     RAM: "DDR4 3200 МГц",
   },
   {
-    id: "8",
+    id: "38",
     name: "IRBIS NB500",
     title:
       '13.3" 1920 x 1080, IPS, 60 Гц, сенсорный, Intel Celeron N3350, 3 ГБ DDR4, eMMC 32 ГБ, видеокарта встроенная, Windows 10 Pro, цвет крышки серебристый',
@@ -475,8 +475,8 @@ export const Laptops: Array<Laptop> = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     manufacturer: "IRBIS",
-    price: 0,
-    rating: 0,
+    price: 896,
+    rating: 3,
     screenSize: 13.3,
     operatingSystem: "Windows 10 Pro",
     storageCapacityGB: 32,
@@ -494,7 +494,7 @@ export const Laptops: Array<Laptop> = [
 
 export const Cameras: Array<Camera> = [
   {
-    id: "1",
+    id: "41",
     name: "Canon EOS 6D Mark II Body",
     title:
       "зеркальная камера, байонет Canon EF, матрица Full frame (полный кадр) 26 Мп, без объектива (body), Wi-Fi",
@@ -511,7 +511,7 @@ export const Cameras: Array<Camera> = [
     pictureResolution: [6240, 4160],
   },
   {
-    id: "2",
+    id: "42",
     name: "Nikon Z5 Body",
     title:
       "беззеркальная камера, байонет Nikon Z, матрица Full frame (полный кадр) 24.3 Мп, без объектива (body), Wi-Fi, два слота для карт памяти",
@@ -528,7 +528,7 @@ export const Cameras: Array<Camera> = [
     pictureResolution: [6016, 4016],
   },
   {
-    id: "3",
+    id: "43",
     name: "Sony Alpha a6400 Body",
     title:
       "беззеркальная камера, байонет Sony E, матрица APS-C (1.5 crop) 24.2 Мп, без объектива (body), Wi-Fi",
@@ -554,7 +554,7 @@ export const Cameras: Array<Camera> = [
 
 export const Consoles: Array<Console> = [
   {
-    id: "1",
+    id: "51",
     name: "Microsoft Xbox Series X",
     title:
       "1 ТБ, разрешение игр - 4K UHD (2160p), поддержка HDR, подключение по HDMI",
@@ -573,7 +573,7 @@ export const Consoles: Array<Console> = [
     tvConnectionType: "HDMI",
   },
   {
-    id: "2",
+    id: "52",
     name: "Sony PlayStation 5",
     title:
       "825 ГБ, разрешение игр - 4K UHD (2160p), поддержка HDR, подключение по HDMI, 1 игра в комплекте: Astro’s Playroom",
@@ -601,7 +601,7 @@ export const Consoles: Array<Console> = [
 
 export const Headphones: Array<HeadphonesType> = [
   {
-    id: "1",
+    id: "61",
     name: "Haylou W1",
     title:
       "беспроводные наушники с микрофоном, внутриканальные, портативные, полностью беспроводные (TWS), Bluetooth 5.2, 20-20000 Гц, время работы 6 ч, с кейсом 20 ч",
@@ -616,7 +616,7 @@ export const Headphones: Array<HeadphonesType> = [
     wireless: true,
   },
   {
-    id: "2",
+    id: "62",
     name: "Redragon Ire Pro",
     title:
       "беспроводные наушники с микрофоном, мониторные (охватывающие), геймерские, съёмный аудиокабель, Bluetooth 5.0, 20-20000 Гц, кабель 1.8 м",
@@ -631,7 +631,7 @@ export const Headphones: Array<HeadphonesType> = [
     wireless: true,
   },
   {
-    id: "3",
+    id: "63",
     name: "Apple AirPods Pro 2",
     title:
       "беспроводные наушники с микрофоном, внутриканальные, портативные, полностью беспроводные (TWS), Bluetooth 5.3, быстрая зарядка, время работы 6 ч, с кейсом 30 ч, активное шумоподавление",
@@ -646,7 +646,7 @@ export const Headphones: Array<HeadphonesType> = [
     wireless: true,
   },
   {
-    id: "4",
+    id: "64",
     name: "Focal Utopia",
     title:
       "наушники, мониторные (охватывающие), для аудиофилов, 5-50000 Гц, кабель 4 м",
@@ -661,7 +661,7 @@ export const Headphones: Array<HeadphonesType> = [
     wireless: false,
   },
   {
-    id: "5",
+    id: "65",
     name: "Defender Basic 210",
     title: "наушники, внутриканальные, портативные, 20-20000 Гц, кабель 1.2 м",
     imageUrl:

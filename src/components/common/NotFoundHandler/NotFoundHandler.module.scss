@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFound {
+    position: relative;
+    padding: 20px;
+    outline: 1px solid #444444;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    width: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.notFound__icon {
+    transform: translateY(2px);
+}
+
+.notFound__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.notFound__header {
+    margin: 0;
+}
+
+.notFound__description {
+    text-align: center;
+    margin: 5px 0;
+    color: #959595;
+}
+
+.notFound__button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    transform: translate(0px, 0px);
+    transition: transform 0.22s ease;
+
+    &:hover {
+        transform: translate(-2px, 2px);
+    }
+
+    &:focus-visible {
+        outline: #52a8ff solid 3px;
+    }
+}
