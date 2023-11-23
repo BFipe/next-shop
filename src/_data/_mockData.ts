@@ -150,7 +150,7 @@ export const Televisions: Array<Television> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/1b7897dcf5a4c4b7b4287b256d3630c2.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     price: 1903.14,
     rating: 7,
     screenSize: 55,
@@ -166,7 +166,7 @@ export const Televisions: Array<Television> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/4073ce14131bd8fce6eb528f8ad2a923.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     price: 499,
     rating: 5,
     screenSize: 32,
@@ -182,7 +182,7 @@ export const Televisions: Array<Television> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/4073ce14131bd8fce6eb528f8ad2a923.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     price: 600.36,
     rating: 6,
     screenSize: 32,
@@ -198,7 +198,7 @@ export const Televisions: Array<Television> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/2861b13d2345ab3fab153feaea4de8f0.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     price: 549,
     rating: 7,
     screenSize: 24,
@@ -220,7 +220,7 @@ export const Smartphones: Array<Smartphone> = [
     title:
       'Android, экран 6.67" AMOLED (1080x2400) 120 Гц, Qualcomm Snapdragon 7+ Gen 2, ОЗУ 12 ГБ, память 256 ГБ, камера 64 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), влагозащита IP53',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     name: "POCO F5",
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/abe909de42d62c1b0fba1e7df5b956e5.jpeg",
@@ -238,7 +238,7 @@ export const Smartphones: Array<Smartphone> = [
     title:
       'Android, экран 6.56" IPS (720x1612) 90 Гц, UniSoC Tiger T606, ОЗУ 8 ГБ, память 128 ГБ, поддержка карт памяти, камера 13 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM)',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     name: "Infinix Hot 30i",
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/61cf5532a4a85446a1bcae7203ab90f8.jpeg",
@@ -256,7 +256,7 @@ export const Smartphones: Array<Smartphone> = [
     title:
       'Android, экран 6.78" IPS (1080x2460) 120 Гц, Mediatek Helio G99, ОЗУ 8 ГБ, память 128 ГБ, поддержка карт памяти, камера 64 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), влагозащита IP53',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     name: "Infinix Note 30",
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/98cd0414f8f1aa91dbe0f035e3416ff2.jpeg",
@@ -274,7 +274,7 @@ export const Smartphones: Array<Smartphone> = [
     title:
       'Apple iOS, экран 6.7" OLED (1290x2796) 120 Гц, Apple A16 Bionic, ОЗУ 6 ГБ, память 128 ГБ, камера 48 Мп, аккумулятор 4323 мАч, 1 SIM (nano-SIM/eSIM), влагозащита IP68',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     name: "Apple iPhone 14 Pro Max",
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/6fb2af9b7c88c0647e3b09f1ebacdb7b.jpeg",
@@ -292,7 +292,7 @@ export const Smartphones: Array<Smartphone> = [
     title:
       'Android, экран 6.4" AMOLED (1080x2340) 120 Гц, Exynos 1380, ОЗУ 8 ГБ, память 256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), влагозащита IP67',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     name: "Samsung Galaxy A54 5G",
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/99c91ac0601efde6e7387bbeaae6c012.jpeg",
@@ -310,7 +310,7 @@ export const Smartphones: Array<Smartphone> = [
     title:
       'Apple iOS, экран 6.1" IPS (828x1792), Apple A13 Bionic, ОЗУ 4 ГБ, память 64 ГБ, камера 12 Мп, аккумулятор 3046 мАч, 1 SIM (nano-SIM/eSIM), влагозащита IP68',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     name: "Apple iPhone 11 64GB",
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/e2189f90f9088975c553ec33431fc186.jpeg",
@@ -340,7 +340,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/06621475af1c45f9432afdfbad11bde2.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Lenovo",
     price: 1497,
     rating: 7,
@@ -359,7 +359,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/25bdd9c7747dfaafffc106a2cd9dab9e.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Maibenben",
     price: 3280,
     rating: 8,
@@ -378,7 +378,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/4676df026a785edcdbfb2b56d31ba43f.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Huawei",
     price: 1999,
     rating: 10,
@@ -397,7 +397,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/ed52fb757a34669f3e914b52eb1496c4.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Lenovo",
     price: 2590,
     rating: 7,
@@ -416,7 +416,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/5cc8c3cb5e059980b9421ca7db0cfe54.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Acer",
     price: 1445,
     rating: 8,
@@ -435,7 +435,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/dbcc352090b0a5e348bd1b9a0327ddb5.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Apple",
     price: 4545,
     rating: 10,
@@ -454,7 +454,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/803784462861fa2a37451fe1b6c2ad30.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Apple",
     price: 7400,
     rating: 10,
@@ -473,7 +473,7 @@ export const Laptops: Array<Laptop> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/fbd33ddeff4fed0c8e010303e1c76178.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "IRBIS",
     price: 896,
     rating: 3,
@@ -501,7 +501,7 @@ export const Cameras: Array<Camera> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/e38b3df3d6543e00ad4d399f2a32cb71.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Canon",
     price: 4984.4,
     rating: 10,
@@ -518,7 +518,7 @@ export const Cameras: Array<Camera> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/5dd398753f305e4c755bd332a1007a4a.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Nikon",
     price: 4459.9,
     rating: 9,
@@ -535,7 +535,7 @@ export const Cameras: Array<Camera> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/62647e4afd5c01e9e0c2cf0841ae2a7e.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Sony",
     price: 3290,
     rating: 9,
@@ -561,7 +561,7 @@ export const Consoles: Array<Console> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/5d39d010867f586b24993beac9bcf882.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Microsoft",
     price: 1838,
     rating: 10,
@@ -580,7 +580,7 @@ export const Consoles: Array<Console> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/8323b898e839aa79245b105d735aeebe.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Microsoft",
     price: 1862,
     rating: 7,
@@ -608,7 +608,7 @@ export const Headphones: Array<HeadphonesType> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/ee5328a0b7a71ccd8f8505c03a739db9.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Haylou",
     price: 96.03,
     rating: 7,
@@ -623,7 +623,7 @@ export const Headphones: Array<HeadphonesType> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/be904557aa70d7911ea4eaf043cc0430.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Redragon",
     price: 179,
     rating: 10,
@@ -638,7 +638,7 @@ export const Headphones: Array<HeadphonesType> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/d8e8e88f88d95f4616c729b8386dc023.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Apple",
     price: 868.96,
     rating: 7,
@@ -653,7 +653,7 @@ export const Headphones: Array<HeadphonesType> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/921064ef875860f244eb63a5a000479f.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Focal",
     price: 22_291.33,
     rating: 10,
@@ -667,7 +667,7 @@ export const Headphones: Array<HeadphonesType> = [
     imageUrl:
       "https://content2.onliner.by/catalog/device/header/ddffa48b89b2a1dc253dbae1d277e86e.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est sem, posuere vitae volutpat non, pellentesque in ligula. In malesuada eu erat quis sollicitudin. Pellentesque non leo enim. Aenean nunc purus, consequat et dui nec, porta scelerisque sem. Proin ut tortor cursus, condimentum sem at, imperdiet diam. Aliquam semper sed nisi id tincidunt. Pellentesque vestibulum sem eu pharetra porttitor. Quisque vitae nisi efficitur, placerat tortor quis, volutpat eros.",
     manufacturer: "Defender",
     price: 2.24,
     rating: 5,
