@@ -9,6 +9,11 @@
     outline: 1px solid #444444;
     border-radius: 10px;
     width: 100%;
+
+    background-color: #0a0a0a;
+
+    text-decoration: none;
+    color: white;
 }
 
 .image {
@@ -36,8 +41,17 @@
 }
 
 .name {
+    padding: 5px;
+    border-radius: 5px;
+
     position: relative;
     margin: 0;
+
+    text-decoration: none;
+    color: white;
+
+    font-weight: bold;
+    font-size: 25px;
 
     &::after {
         content: "";
@@ -47,6 +61,19 @@
         right: 0;
         bottom: -5px;
         background-color: white;
+    }
+
+    &:hover {
+        color: #a0dfff;
+
+        &::after {
+            background-color: #a0dfff;
+        }
+    }
+
+    &:focus,
+    :focus-visible {
+        outline: #52a8ff solid 2px;
     }
 }
 
@@ -60,6 +87,7 @@
     margin: 0;
     font-size: large;
     font-weight: 400;
+    color: #8d8d8d;
 }
 
 .cart {

@@ -29,7 +29,8 @@ export default async function Products({
   params: { category },
 }: DynamicRouteParams<true, "category">) {
   const products: ServerResponse<Array<BaseProduct>> = await fetch(
-    `https://next-shop-fawn.vercel.app/api/shop/${category}`
+    `https://next-shop-fawn.vercel.app/api/shop/${category}`,
+    { method: "GET" }
   ).then((data) => data.json());
 
   if (products.status === 404 || products.data === null) notFound();
@@ -37,7 +38,9 @@ export default async function Products({
   return (
     <div className={styles.products}>
       {products.data.map((product) => {
-        return <ProductCard product={product} key={product.id} />;
+        return (
+          <ProductCard product={product} category={category} key={product.id} />
+        );
       })}
     </div>
   );

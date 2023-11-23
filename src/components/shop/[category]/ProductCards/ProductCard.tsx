@@ -1,12 +1,14 @@
 import { BaseProduct } from "@/src/_data/dataTypes";
 import styles from "./ProductCard.module.scss";
 import { Rate } from "antd";
+import Link from "next/link";
 
 type ProductCardParams = {
   product: BaseProduct;
+  category: string;
 };
 
-export default function ProductCard({ product }: ProductCardParams) {
+export default function ProductCard({ product, category }: ProductCardParams) {
   return (
     <div className={styles.card}>
       <div className={styles.image}>
@@ -14,7 +16,12 @@ export default function ProductCard({ product }: ProductCardParams) {
       </div>
       <div className={styles.info}>
         <div className={styles.header}>
-          <h2 className={styles.name}>{product.name}</h2>
+          <Link
+            href={`/shop/${category}/${product.id}`}
+            className={styles.name}
+          >
+            {product.name}
+          </Link>
           <div className={styles.rating}>
             <Rate allowHalf disabled defaultValue={product.rating / 2} />
           </div>
