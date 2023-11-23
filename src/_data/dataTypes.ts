@@ -21,7 +21,7 @@ export type Category = BaseInfo & {
 
 export type Television = BaseProduct & {
   screenSize: number;
-  resolution: [number, number];
+  resolution: string;
   displayType: "LED" | "OLED" | "LCD" | "Plasma" | "QLED";
 };
 
@@ -46,7 +46,7 @@ export type Camera = BaseProduct & {
   cameraType: string;
   matrixResolution: number;
   matrixType: string;
-  pictureResolution: [number, number];
+  pictureResolution: string;
 };
 
 export type Console = BaseProduct & {

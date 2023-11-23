@@ -108,7 +108,7 @@ export const Televisions: Array<Television> = [
     screenSize: 55,
     displayType: "LCD",
     manufacturer: "Xiaomi",
-    resolution: [3840, 2160],
+    resolution: "3840 x 2160",
   },
   {
     id: "12",
@@ -124,7 +124,7 @@ export const Televisions: Array<Television> = [
     screenSize: 65,
     displayType: "LCD",
     manufacturer: "Samsung",
-    resolution: [3840, 2160],
+    resolution: "3840 x 2160",
   },
   {
     id: "13",
@@ -140,7 +140,7 @@ export const Televisions: Array<Television> = [
     screenSize: 75,
     displayType: "OLED",
     manufacturer: "LG",
-    resolution: [3840, 2160],
+    resolution: "3840 x 2160",
   },
   {
     id: "14",
@@ -156,7 +156,7 @@ export const Televisions: Array<Television> = [
     screenSize: 55,
     displayType: "LCD",
     manufacturer: "LG",
-    resolution: [3840, 2160],
+    resolution: "3840 x 2160",
   },
   {
     id: "15",
@@ -172,7 +172,7 @@ export const Televisions: Array<Television> = [
     screenSize: 32,
     displayType: "LCD",
     manufacturer: "TECHNO",
-    resolution: [1366, 768],
+    resolution: "1366 x 768",
   },
   {
     id: "16",
@@ -188,7 +188,7 @@ export const Televisions: Array<Television> = [
     screenSize: 32,
     displayType: "LCD",
     manufacturer: "Evolution",
-    resolution: [1366, 768],
+    resolution: "1366 x 768",
   },
   {
     id: "17",
@@ -204,7 +204,7 @@ export const Televisions: Array<Television> = [
     screenSize: 24,
     displayType: "LCD",
     manufacturer: "KIVI",
-    resolution: [1366, 768],
+    resolution: "1366 x 768",
   },
 ];
 
@@ -508,7 +508,7 @@ export const Cameras: Array<Camera> = [
     cameraType: "Зеркальная камера",
     matrixResolution: 26,
     matrixType: "CMOS",
-    pictureResolution: [6240, 4160],
+    pictureResolution: "6240 x 4160",
   },
   {
     id: "42",
@@ -525,7 +525,7 @@ export const Cameras: Array<Camera> = [
     cameraType: "Беззеркальная камера",
     matrixResolution: 24.3,
     matrixType: "CMOS",
-    pictureResolution: [6016, 4016],
+    pictureResolution: "6240 x 4160",
   },
   {
     id: "43",
@@ -542,7 +542,7 @@ export const Cameras: Array<Camera> = [
     cameraType: "Беззеркальная камера",
     matrixResolution: 24.2,
     matrixType: "EXR CMOS",
-    pictureResolution: [6000, 4000],
+    pictureResolution: "6240 x 4160",
   },
 ];
 
