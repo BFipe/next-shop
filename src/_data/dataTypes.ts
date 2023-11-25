@@ -62,3 +62,9 @@ export type Headphones = BaseProduct & {
   type: string;
   wireless: boolean;
 };
+
+//Cart types
+
+export type BaseCartProduct = BaseProduct & {
+  count: number;
+};
