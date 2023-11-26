@@ -1,3 +1,8 @@
+"use client";
+
+import { useAppSelector } from "@/src/common/hooks";
+
 export default function Cart() {
-  return <div>Cart page</div>;
+  const cart = useAppSelector((state) => state.cart);
+  return <div>{JSON.stringify(cart)}</div>;
 }

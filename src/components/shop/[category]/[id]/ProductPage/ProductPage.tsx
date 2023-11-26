@@ -3,6 +3,7 @@ import { Rate } from "antd";
 import React from "react";
 
 import styles from "./ProductPage.module.scss";
+import AddToCartButton from "../../../common/AddToCartButton/AddToCartButton";
 
 type ProductPageParams = {
   product: BaseProduct;
@@ -56,7 +57,7 @@ export default function ProductPage({ product }: ProductPageParams) {
           </div>
           <div className={styles.cart}>
             <p className={styles.price}>{product.price} р.</p>
-            <button>Add to cart</button>
+            <AddToCartButton product={product} />
           </div>
         </div>
       </div>

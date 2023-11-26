@@ -24,10 +24,10 @@ export default function RootLayout({
         />
       </head>
       <body className={style.body}>
-        <Header />
-        <main className={style.container}>
-          <ReduxStoreProvider>{children}</ReduxStoreProvider>
-        </main>
+        <ReduxStoreProvider>
+          <Header />
+          <main className={style.container}>{children}</main>
+        </ReduxStoreProvider>
       </body>
     </html>
   );

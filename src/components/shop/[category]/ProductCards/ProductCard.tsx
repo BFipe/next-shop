@@ -2,6 +2,7 @@ import { BaseProduct } from "@/src/_data/dataTypes";
 import styles from "./ProductCard.module.scss";
 import { Rate } from "antd";
 import Link from "next/link";
+import AddToCartButton from "../../common/AddToCartButton/AddToCartButton";
 
 type ProductCardParams = {
   product: BaseProduct;
@@ -29,7 +30,7 @@ export default function ProductCard({ product, category }: ProductCardParams) {
         <p className={styles.title}>{product.title}</p>
         <div className={styles.cart}>
           <p className={styles.price}>{product.price} р.</p>
-          <button className={styles.button}>Add to cart</button>
+          <AddToCartButton product={product} />
         </div>
       </div>
     </div>
