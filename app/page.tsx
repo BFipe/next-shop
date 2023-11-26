@@ -1,4 +1,4 @@
-import SimpleCounter from "@/src/components/SimpleCounter";
+import ClientDevTools from "@/src/components/ClientDevTools";
 import styles from "./page.module.scss";
 
 export default async function Home() {
@@ -6,7 +6,7 @@ export default async function Home() {
     <main className={styles.home}>
       <h1>Hello world BFipe!</h1>
       <p>
-        <SimpleCounter />
+        <ClientDevTools />
       </p>
     </main>
   );

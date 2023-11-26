@@ -1,9 +1,12 @@
 import { BaseProduct } from "@/src/_data/dataTypes";
 import { Rate } from "antd";
 import React from "react";
-
 import styles from "./ProductPage.module.scss";
-import AddToCartButton from "../../../common/AddToCartButton/AddToCartButton";
+import dynamic from "next/dynamic";
+const AddToCartButton = dynamic(
+  () => import("../../../common/AddToCartButton/AddToCartButton"),
+  { ssr: false }
+);
 
 type ProductPageParams = {
   product: BaseProduct;

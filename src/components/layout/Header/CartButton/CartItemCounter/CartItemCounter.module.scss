@@ -1,3 +1,12 @@
 .counter {
     transform: translateY(1px);
 }
+
+.spin {
+    position: relative;
+    transform: translateY(-2px);
+
+    & > span > svg {
+        fill: #000000;
+    }
+}

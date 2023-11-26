@@ -1,7 +1,22 @@
 "use client";
 import styles from "./CartItemCounter.module.scss";
-//Информация о колличестве товаров берется с redux
+import { useAppSelector } from "@/src/common/hooks";
+import { Spin } from "antd";
+import { LoadingOutlined } from "@ant-design/icons";
 
 export default function CartItemCounter() {
-  return <div className={styles.counter}>0</div>;
+  const cart = useAppSelector((state) => state.cart);
+
+  return (
+    <div className={styles.counter}>
+      {cart.isDataLoaded ? (
+        cart.data.length
+      ) : (
+        <Spin
+          className={styles.spin}
+          indicator={<LoadingOutlined style={{ fontSize: 14 }} spin />}
+        />
+      )}
+    </div>
+  );
 }

@@ -2,7 +2,11 @@ import { BaseProduct } from "@/src/_data/dataTypes";
 import styles from "./ProductCard.module.scss";
 import { Rate } from "antd";
 import Link from "next/link";
-import AddToCartButton from "../../common/AddToCartButton/AddToCartButton";
+import dynamic from "next/dynamic";
+const AddToCartButton = dynamic(
+  () => import("../../common/AddToCartButton/AddToCartButton"),
+  { ssr: false }
+);
 
 type ProductCardParams = {
   product: BaseProduct;

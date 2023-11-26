@@ -4,6 +4,7 @@ import "./globals.scss";
 import style from "./layout.module.scss";
 import Header from "@/src/components/layout/Header/Header";
 import ReduxStoreProvider from "@/src/reduxCore/ReduxStoreProvider";
+import ApplyClientSideActions from "@/src/components/layout/ApplyClientSideActions/ApplyClientSideActions";
 
 export const metadata: Metadata = {
   title: "Next | Shop by BFipe",
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={style.body}>
         <ReduxStoreProvider>
           <Header />
+          <ApplyClientSideActions />
           <main className={style.container}>{children}</main>
         </ReduxStoreProvider>
       </body>
