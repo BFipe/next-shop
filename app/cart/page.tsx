@@ -1,8 +1,12 @@
-"use client";
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
+import Loading from "./loading";
 
-import { useAppSelector } from "@/src/common/hooks";
+const CartComponent = dynamic(
+  () => import("@/src/components/cart/CartComponent/CartComponent"),
+  { ssr: false, loading: () => <Loading /> }
+);
 
 export default function Cart() {
-  const cart = useAppSelector((state) => state.cart);
-  return <div>{JSON.stringify(cart)}</div>;
+  return <CartComponent />;
 }
