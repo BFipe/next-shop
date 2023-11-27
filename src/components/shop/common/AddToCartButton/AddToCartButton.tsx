@@ -15,8 +15,6 @@ export default function AddToCartButton({ product }: AddToCartButtonProps) {
   const cart = useAppSelector((state) => state.cart);
   const dispatch = useAppDispatch();
 
-  console.log(cart);
-
   function handleAddToCart() {
     dispatch(CartActions.addProduct(product));
   }

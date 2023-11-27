@@ -2,6 +2,6 @@
 
 import ErrorHandler from "@/src/components/common/ErrorHandler/ErrorHandler";
 
-export default function Error({ reset }: { reset: () => void }) {
-  return <ErrorHandler reset={reset} />;
+export default function Error() {
+  return <ErrorHandler showRetryButton={false} />;
 }

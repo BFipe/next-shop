@@ -21,7 +21,6 @@ const cartSlice = createSlice({
   initialState: cartInitialState,
   reducers: {
     setProducts(_state, action: PayloadAction<Array<any>>) {
-      console.log("Trying to set this data", action.payload);
       return {
         isDataLoaded: true,
         data: action.payload,

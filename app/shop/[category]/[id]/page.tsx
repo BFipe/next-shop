@@ -15,6 +15,7 @@ export default async function Product({
   if (response.status === 404 || !response.data) {
     notFound();
   }
+
   return (
     <div>
       <ProductPage product={response.data} />

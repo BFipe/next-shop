@@ -9,7 +9,6 @@ import ApplyClientSideActions from "@/src/components/layout/ApplyClientSideActio
 
 const rubik = Rubik({
   subsets: ["cyrillic-ext", "latin-ext"],
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {

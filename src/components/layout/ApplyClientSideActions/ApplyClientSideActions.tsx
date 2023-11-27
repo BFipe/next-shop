@@ -16,8 +16,6 @@ export default function ApplyClientSideActions() {
         localStorage.getItem("nextShopCart")!
       );
 
-      console.log("Data in localstorage", localStorageCart);
-
       if (localStorageCart && Array.isArray(localStorageCart)) {
         localStorageImportedData = localStorageCart;
       }

@@ -7,7 +7,6 @@ type Action = {
 
 const saveToLocalStorageMiddleware: Middleware =
   (store) => (next) => (action: Action) => {
-    console.log("I do", action);
     const result = next(action);
 
     if (action.type.match(/^cart\/.*/)) {
@@ -16,8 +15,6 @@ const saveToLocalStorageMiddleware: Middleware =
         JSON.stringify(store.getState().cart.data)
       );
     }
-
-    console.log("Now my current state is", store.getState().cart);
 
     return result;
   };

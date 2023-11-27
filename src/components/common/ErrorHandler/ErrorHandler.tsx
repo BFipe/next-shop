@@ -6,12 +6,12 @@ export default function ErrorHandler({
   errorName = "Something went wrong!",
   errorDescription = "An error occurred during runtime",
   showRetryButton = true,
-  reset,
+  reset = () => {},
 }: {
   errorName?: string;
   errorDescription?: string;
   showRetryButton?: boolean;
-  reset: () => void;
+  reset?: () => void;
 }) {
   const router = useRouter();
 
