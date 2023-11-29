@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from "@/src/common/hooks";
 import { CartActions } from "@/src/reduxCore/features/cart/CartSlice";
 import Link from "next/link";
 import GarbageIcon from "./Icons/GarbageIcon";
+import styles from "./CartComponent.module.scss";
 
 export default function CartComponent() {
   const cart = useAppSelector((state) => state.cart);
@@ -11,67 +12,70 @@ export default function CartComponent() {
 
   if (cart.data.length === 0) {
     return (
-      <div>
-        <h2>No items in the cart yet!</h2>
-        <p>
-          Visit <Link href={"/shop"}>our shop</Link> to get products!
+      <div className={styles.noItems}>
+        <h2 className={styles.noItems__header}>No items in the cart yet!</h2>
+        <p className={styles.noItems__info}>
+          Visit{" "}
+          <Link className={styles.noItems__link} href={"/shop"}>
+            our shop
+          </Link>{" "}
+          to get products!
         </p>
       </div>
     );
   }
 
   return (
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>Product image</th>
-            <th>Product name</th>
-            <th>Count</th>
-            <th>Price</th>
-            <th>Total</th>
-            <th></th>
-          </tr>
-        </thead>
+    <div className={styles.cart}>
+      <table className={styles.table}>
         <tbody>
           {cart.data.map((item) => {
             return (
-              <tr key={item.id}>
-                <td>
-                  <img src={item.imageUrl} alt={item.name} width={100} />
+              <tr key={item.id} className={styles.row}>
+                <td className={styles.image}>
+                  <div className={styles.imageWrapper}>
+                    <img src={item.imageUrl} alt={item.name} width={100} />
+                  </div>
                 </td>
-                <td>{item.name}</td>
-                <td>
-                  <button
-                    onClick={() =>
-                      dispatch(
-                        CartActions.changeCount({
-                          productId: item.id,
-                          count: item.count - 1,
-                        })
-                      )
-                    }
-                  >
-                    -
-                  </button>
-                  <p>{item.count} шт</p>
-                  <button
-                    onClick={() =>
-                      dispatch(
-                        CartActions.changeCount({
-                          productId: item.id,
-                          count: item.count + 1,
-                        })
-                      )
-                    }
-                  >
-                    +
-                  </button>
+                <td className={styles.name}>{item.name}</td>
+                <td className={styles.count}>
+                  <div className={styles.countActions}>
+                    <button
+                      className={styles.cartButton + " " + styles.decrease}
+                      onClick={() =>
+                        dispatch(
+                          CartActions.changeCount({
+                            productId: item.id,
+                            count: item.count - 1,
+                          })
+                        )
+                      }
+                    >
+                      -
+                    </button>
+                    <p className={styles.countValue}>{item.count} шт</p>
+                    <button
+                      className={styles.cartButton + " " + styles.increase}
+                      onClick={() =>
+                        dispatch(
+                          CartActions.changeCount({
+                            productId: item.id,
+                            count: item.count + 1,
+                          })
+                        )
+                      }
+                    >
+                      +
+                    </button>
+                  </div>
                 </td>
-                <td>{item.price} р.</td>
-                <td>{Math.floor(item.count * item.price * 100) / 100} р.</td>
-                <td>
+                <td className={styles.price}>{item.price} р. / шт</td>
+                <td className={styles.total}>
+                  {Math.floor(item.count * item.price * 100) / 100} р.
+                </td>
+                <td className={styles.deleteButton}>
                   <button
+                    className={styles.cartButton + " " + styles.delete}
                     onClick={() => {
                       dispatch(CartActions.removeProduct(item.id));
                     }}
@@ -84,15 +88,18 @@ export default function CartComponent() {
           })}
         </tbody>
         <tfoot>
-          <tr>
-            <td>
-              <button onClick={() => dispatch(CartActions.clearCart())}>
+          <tr className={styles.tableFooter}>
+            <td className={styles.clear}>
+              <button
+                className={styles.cartButton + " " + styles.clearButton}
+                onClick={() => dispatch(CartActions.clearCart())}
+              >
                 Clear cart
               </button>
             </td>
             <td colSpan={2}></td>
-            <td>Total:</td>
-            <td>
+            <td className={styles.totalText}>Total:</td>
+            <td className={styles.totalValue} colSpan={2}>
               {Math.floor(
                 cart.data.reduce((acc, item) => {
                   acc += item.price * item.count;
@@ -101,12 +108,13 @@ export default function CartComponent() {
               ) / 100}
               р.
             </td>
-            <td></td>
           </tr>
         </tfoot>
       </table>
 
-      <button>Purchase</button>
+      <button className={styles.cartButton + " " + styles.purchaseButton}>
+        Purchase
+      </button>
     </div>
   );
 }
