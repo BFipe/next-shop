@@ -5,10 +5,20 @@ import { CartActions } from "@/src/reduxCore/features/cart/CartSlice";
 import Link from "next/link";
 import GarbageIcon from "./Icons/GarbageIcon";
 import styles from "./CartComponent.module.scss";
+import CartPurchaseModal from "../Modals/CartPurchaseModal/CartPurchaseModal";
+import { useState } from "react";
+import ConfirmClearCartModal from "../Modals/ConfirmClearCartModal/ConfirmClearCartModal";
 
 export default function CartComponent() {
   const cart = useAppSelector((state) => state.cart);
+  const [showPurchaseModal, setShowPurchaseModal] = useState(false);
+  const [showClearCartModal, setShowClearCartModal] = useState(false);
   const dispatch = useAppDispatch();
+
+  function handlePurchase() {
+    setShowPurchaseModal(false);
+    dispatch(CartActions.clearCart());
+  }
 
   if (cart.data.length === 0) {
     return (
@@ -24,6 +34,14 @@ export default function CartComponent() {
       </div>
     );
   }
+
+  const totalAmount =
+    Math.floor(
+      cart.data.reduce((acc, item) => {
+        acc += item.price * item.count;
+        return acc;
+      }, 0) * 100
+    ) / 100;
 
   return (
     <div className={styles.cart}>
@@ -92,29 +110,44 @@ export default function CartComponent() {
             <td className={styles.clear}>
               <button
                 className={styles.cartButton + " " + styles.clearButton}
-                onClick={() => dispatch(CartActions.clearCart())}
+                onClick={() => setShowClearCartModal(true)}
               >
                 Clear cart
               </button>
+              <ConfirmClearCartModal
+                showModal={showClearCartModal}
+                onOk={() => {
+                  setShowClearCartModal(false);
+                  dispatch(CartActions.clearCart());
+                }}
+                onCancel={() => {
+                  setShowClearCartModal(false);
+                }}
+              />
             </td>
             <td colSpan={2}></td>
             <td className={styles.totalText}>Total:</td>
             <td className={styles.totalValue} colSpan={2}>
-              {Math.floor(
-                cart.data.reduce((acc, item) => {
-                  acc += item.price * item.count;
-                  return acc;
-                }, 0) * 100
-              ) / 100}
+              {totalAmount}
               р.
             </td>
           </tr>
         </tfoot>
       </table>
 
-      <button className={styles.cartButton + " " + styles.purchaseButton}>
+      <button
+        className={styles.cartButton + " " + styles.purchaseButton}
+        onClick={() => setShowPurchaseModal(true)}
+      >
         Purchase
       </button>
+
+      <CartPurchaseModal
+        showModal={showPurchaseModal}
+        onOk={handlePurchase}
+        onCancel={handlePurchase}
+        totalAmount={totalAmount}
+      ></CartPurchaseModal>
     </div>
   );
 }

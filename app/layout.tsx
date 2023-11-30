@@ -6,6 +6,7 @@ import style from "./layout.module.scss";
 import Header from "@/src/components/layout/Header/Header";
 import ReduxStoreProvider from "@/src/reduxCore/ReduxStoreProvider";
 import ApplyClientSideActions from "@/src/components/layout/ApplyClientSideActions/ApplyClientSideActions";
+import { ConfigProvider } from "antd";
 
 const rubik = Rubik({
   subsets: ["cyrillic-ext", "latin-ext"],
@@ -24,11 +25,27 @@ export default function RootLayout({
   return (
     <html lang="en" className={rubik.className}>
       <body className={style.body}>
-        <ReduxStoreProvider>
-          <Header />
-          <ApplyClientSideActions />
-          <main className={style.container}>{children}</main>
-        </ReduxStoreProvider>
+        {/* AntD config provider */}
+        <ConfigProvider
+          theme={{
+            token: {
+              colorPrimary: "#34af61",
+            },
+            components: {
+              Modal: {
+                contentBg: "#1A1A1A",
+                headerBg: "transparent",
+                titleColor: "white",
+              },
+            },
+          }}
+        >
+          <ReduxStoreProvider>
+            <Header />
+            <ApplyClientSideActions />
+            <main className={style.container}>{children}</main>
+          </ReduxStoreProvider>
+        </ConfigProvider>
       </body>
     </html>
   );
