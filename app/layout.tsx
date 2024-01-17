@@ -7,6 +7,7 @@ import Header from "@/src/components/layout/Header/Header";
 import ReduxStoreProvider from "@/src/reduxCore/ReduxStoreProvider";
 import ApplyClientSideActions from "@/src/components/layout/ApplyClientSideActions/ApplyClientSideActions";
 import { ConfigProvider } from "antd";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 
 const rubik = Rubik({
   subsets: ["cyrillic-ext", "latin-ext"],
@@ -43,7 +44,9 @@ export default function RootLayout({
           <ReduxStoreProvider>
             <Header />
             <ApplyClientSideActions />
-            <main className={style.container}>{children}</main>
+            <AntdRegistry>
+              <main className={style.container}>{children}</main>
+            </AntdRegistry>
           </ReduxStoreProvider>
         </ConfigProvider>
       </body>
